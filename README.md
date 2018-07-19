@@ -1,4 +1,4 @@
-turtle-pool
+42-pool
 ====================
 Formerly known as cryptonote-forknote-pool, forked from Forknote Project.
 
@@ -88,7 +88,7 @@ Usage
 ===
 
 #### Requirements
-* Turtlecoind daemon
+* 42d daemon
 * walletd
 * [Node.js](http://nodejs.org/) v0.10+ ([follow these installation instructions](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager))
 * [Redis](http://redis.io/) key-value store v2.6+ ([follow these instructions](http://redis.io/topics/quickstart))
@@ -118,7 +118,7 @@ sudo ln -s /usr/bin/nodejs /usr/bin/node
 Clone the repository and run `npm update` for all the dependencies to be installed:
 
 ```bash
-git clone https://github.com/turtlecoin/turtle-pool pool
+git clone https://github.com/FourtyTwo/42-pool pool
 cd pool
 npm update
 ```
